@@ -1,0 +1,211 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+.container-fluid{
+    background-color: black;
+
+}
+
+.logo{
+    width: 70px;
+}
+.titulo{
+    color: rgb(210, 121, 210);
+}
+.nav-item a{
+    color: white;
+    
+}
+.nav-item a:hover{
+    color: rgb(226, 83, 226);
+}
+.foto{
+    width: 100%;
+    height: 500px;
+}
+.fotoreducida{
+    display: none;
+}
+
+.designthinking{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    top: 35%;
+    left: 37%;
+}
+
+.subtitulo{
+    background-color: #D5A6BD;
+    width: 52%;
+    padding: 10px;
+    position: absolute;
+    top: 69%;
+    left: 22%;
+}
+
+.primerparrafo{
+    position: relative;
+    top: 30%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    color: #4C1130;
+    font-size: 20px;
+    
+}
+.segundoparrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    color: #4C1130;
+    font-size: 20px;
+    
+}
+.bombilla{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 70%;
+    top: 90%;
+}
+
+.contactanos{
+    background-color: #20124D;
+    border-color: #A64D79;
+    border-width: 2px;
+    width: 350px;
+    height: 210px;
+    position: absolute;
+    left: 69%;
+    top: 140%;
+    
+}
+.contacto{
+    font-size: 30px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    left: 25px;
+    top: -10px;
+    padding: 20px;
+
+}
+
+.button{
+    color: white;
+    background-color: #741B47;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+}
+
+footer div a{
+    color: white;
+
+    
+}
+
+
+.footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 190%;
+    
+}
+.icon{
+    padding: 20px;
+   }
+
+.tresiconos{
+    position: relative;
+    float: right;
+    top: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    #menu{
+        z-index: 3;
+    }
+   .navbar-toggler-icon{
+    color: white;
+    position: relative;
+    left: 155px;
+   }
+   .titulo{
+    display: none;
+   }
+   .foto{
+    display: none;
+    
+   }
+   .fotoreducida{
+    display: block;
+    width: 100%;
+    
+    
+   }
+   .designthinking{
+    font-size: 40px;
+    left: 23%;
+    top: 20%;
+    
+  
+   }
+   .subtitulo{
+    font-size: 15px;
+    width: 79%;
+    left: 10%;
+    top: 40%;
+   }
+   .primerparrafo{
+    width: fit-content;
+   }
+
+
+
+   .segundoparrafo{
+    width: fit-content;
+    position: relative;
+    top: 90%;
+   }
+
+   .bombilla{
+    left: 18%;
+    top: 215%;
+   }
+
+   .contactanos{
+    left: 13%;
+    top: 255%;
+    
+   }
+
+   .footer{
+    top: 290%;
+   }
+
+   .icon{
+    padding: 10px;
+   }
+   .tresiconos{
+    top: 7px;
+   }
+
+}
